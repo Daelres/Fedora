@@ -1,0 +1,224 @@
+    1  ls
+    2  cd .drestrepo334
+    3  ls
+    4  cd ..
+    5  ls
+    6  clean
+    7  cl
+    8  clear
+    9  sudo group add -g 1000 coordinacion
+   10  sudo group add -g 1000 coordinacionlear
+   11  clear
+   12  sudo groupadd -g 1000 coordinacion
+   13  sudo groupadd -g 2000 lineaprogramacion
+   14  sudo groupadd -g 3000 lineati
+   15  cat /etc/group
+   16  cd drestrepo334/
+   17  ls
+   18  cd ..
+   19  cd home/
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd usr/
+   24  ls
+   25  cd ..
+   26  clear
+   27  sudo useradd -m -g 1000 Claudia
+   28  sudo useradd -m -g 1000 Daniel
+   29  sudo useradd -m -g 2000 Fabian
+   30  sudo useradd -m -g 2000 Yamid
+   31  sudo useradd -m -g 3000 Javier
+   32  cd home/
+   33  ls
+   34  cd Claudia/
+   35  mkdir unab
+   36  mkdir materias
+   37  mkdir personal
+   38  cd ..
+   39  cd Daniel/
+   40  mkdir unab
+   41  mkdir materias
+   42  mkdir personal
+   43  cd ..
+   44  cd Fabian/
+   45  mkdir unab
+   46  mkdir materias
+   47  mkdir personal
+   48  cd ..
+   49  cd Javier/
+   50  mkdir unab
+   51  mkdir materias
+   52  mkdir personal
+   53  cd ..
+   54  cd Yamid/
+   55  mkdir unab
+   56  mkdir materias
+   57  mkdir personal
+   58  cd ..
+   59  tree
+   60  cd Claudia/
+   61  cd materias/
+   62  nano comandos.txt
+   63  sudo dnf install nano
+   64  nano comandos.txt
+   65  ls
+   66  cd ..
+   67  tree
+   68  cd ..
+   69  tree
+   70  cd Claudia/
+   71  ls
+   72  cd materias/
+   73  cd..
+   74  cd ..
+   75  cd unab/
+   76  nano semillero.txt
+   77  ls
+   78  cd ..
+   79  cd materias/
+   80  nano comandos.txt
+   81  ls
+   82  nano comandos.txt 
+   83  tree
+   84  nano materias.txt
+   85  cd ..
+   86  cd personal/
+   87  nano datos.txt
+   88  cd ..
+   89  ls
+   90  cd Daniel/
+   91  ls
+   92  cd unab/
+   93  nano semillero.txt
+   94  cd ..
+   95  cd materias/
+   96  nano comandos.txt
+   97  nano materias.txt
+   98  ls
+   99  cd ..
+  100  cd personal/
+  101  nano datos.txt
+  102  cd ..
+  103  ls
+  104  cd Fabian/
+  105  ls
+  106  cd unab/
+  107  nano semillero.txt
+  108  cd ..
+  109  tree
+  110  cd materias/
+  111  nano commandos.txt
+  112  nano materias.txt
+  113  ls
+  114  cd ..
+  115  cd personal/
+  116  nano datos.txt
+  117  ls
+  118  cd ..
+  119  ls -l
+  120  cd ..
+  121  ls
+  122  tree
+  123  cd Javier/
+  124  cd unab/
+  125  nano semilleros.txt
+  126  cd ..
+  127  cd materias/
+  128  nano comandos.txt
+  129  ls
+  130  nano materias.txt
+  131  ls
+  132  cd ..
+  133  cd personal/
+  134  nano datos.txt
+  135  cd ..
+  136  ls
+  137  cd Yamid/
+  138  cd unab/
+  139  nano semilleros.txt
+  140  cd ..
+  141  cd materias/
+  142  nano comandos.txt
+  143  ls
+  144  nano materias.txt
+  145  ls
+  146  cd ..
+  147  cd personal/
+  148  nano datos.txt
+  149  ls
+  150  cd ..
+  151  tree
+  152  chmod 700 Claudia/
+  153  ls -l
+  154  chmod 755 Claudia/
+  155  ls -l
+  156  chmod 777 Fabian/
+  157  ls -l
+  158  chmod u+rx,g+rw,o Yamid/
+  159  chmod urx,grw,o Yamid/
+  160  chmod u-x,g+r,o+rx Yamid/
+  161  ls -l
+  162  tar 
+  163  tar
+  164  clear
+  165  cd /root
+  166  ls
+  167  cd ..
+  168  ls
+  169  sudo tar -czvf /root/Claudia.tar.gz -C /drestrepo334/rr
+  170  ls
+  171  cd drestrepo334/
+  172  ls
+  173  cd ..
+  174  cd home/
+  175  ls
+  176  cd ..
+  177  ls
+  178  sudo tar -czvf /root/Claudia.tar.gz -C /home/Claudia
+  179  sudo tar -czvf /root/Claudia.tar.gz -C /home/Claudia/
+  180  cd root/
+  181  sudo tar -czvf Claudia.tar.gz -C /home/Claudia/
+  182  sudo tar -czvf Claudia.tar.gz /home/Claudia/
+  183  ls
+  184  sudo tar -czvf Daniel.tar.gz /home/Daniel/
+  185  sudo tar -czvf Fabian.tar.gz /home/Fabian/
+  186  sudo tar -czvf Javier.tar.gz /home/Javier/
+  187  sudo tar -czvf Yamid.tar.gz /home/Yamid/
+  188  ls
+  189  ls -l
+  190  cd ..
+  191  ls -l
+  192  clear
+  193  ls
+  194  cd root/
+  195  ls -l
+  196  cd ..
+  197  cd home/
+  198  ls -l
+  199  ls
+  200  cd ..
+  201  ls
+  202  makdir Practica
+  203  mkdir Practica
+  204  echo "hola mundo" > Practica/hola.txt
+  205  touch practica/hola.txt
+  206  touch Practica/hola.txt
+  207  ls
+  208  if config;  ls; p; 1; 2; 3; 4; 5; 6; q
+  209  ifconfig
+  210  history
+  211  tree Practica
+  212  head Practica/
+  213  head Practica/hola.txt 
+  214  more Practica/hola.txt 
+  215  tail Practica/hola.txt 
+  216  date
+  217  cal
+  218  eho
+  219  who
+  220  sudo fdisk -1
+  221  ps -A
+  222  free -h
+  223  ls
+  224  history > comandos.txt
